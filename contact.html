@@ -11,7 +11,7 @@
 <body>
     <div class="panel panel-default">
             <div class="panel-body">
-                <div class="text-right col-md-4">
+                <div class="text-center col-md-4">
                     <h1>Jason Robinson</h1>
                 </div>
                 <div class="text-center">
@@ -25,26 +25,40 @@
           </div>
           <div class="container">
             <div class="row">
-                    <div class="col-xs-6 col-md-3">
-                      <a href="#" class="thumbnail">
-                        <img src="http://www.placepuppy.net/400/250" alt="puppy red">
-                      </a>
+                    <div class="col-md-8">
+                            <form action="" method="POST" enctype="multipart/form-data" id="form_id">
+                                <div class="form-group">
+                                     <h5><label for="inputName">Name</label></h5>
+                    
+                                    <input type="text" name="career[name]" class="form-control" tabindex="1"  pattern="[a-zA-Z. ]{1,50}" required>
+                                </div>
+                                <div class="form-group">
+                                     <h5><label for="inputEmail">Email</label></h5>
+                    
+                                    <input type="email" name="career[email]" class="form-control" tabindex="2" required>
+                                </div>
+                                <div class="form-group">
+                                     <h5><label for="inputMessage">Message</label></h5>
+                    
+                                     <textarea name="[message]" class="form-control" tabindex="4"  required></textarea>
+                                </div>
+                                <button type="submit" name="submit" class="btn btn-primary btn-block" tabindex="5">Submit</button>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                        
+                                <h2 class="text-center"=""><a href="#">Contact Me</a></h2>
+                                <hr>
+                                <ul class="list-inline text-center">
+                                    <li> <a href="https://www.linkedin.com/in/jason-robinson-b111887a/"><img src="if_linkedin_313642.png" alt="linkedin"></a></li>
+                                    <li> <a href="https://stackoverflow.com/users/9175873/jason-robinson"><img src="if_stackoverflow_313469.png" alt="stackoverflow"></a></li>
+                                    <li><a href="https://github.com/JasonRobnson"><img src="if_github-square_683981.png" alt="GitHub"></a></li>
+                                </ul>
+                            </div>
                     </div>
-                    <div class="col-md-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quidem nam ipsum iusto impedit recusandae velit similique minima accusamus. Neque esse voluptates ex repudiandae autem hic at repellat velit porro.</p>
-                        <p>Quis ex impedit vel suscipit qui praesentium, a nostrum delectus! Itaque, blanditiis. Mollitia ad laborum, eos unde odio, minus aspernatur aperiam non ullam ipsa assumenda dolore veniam, vitae ea voluptates!</p>
-                        <p>Distinctio, neque! Suscipit deleniti enim provident culpa quis sequi laborum modi, aliquid quisquam perspiciatis earum tempora odio, adipisci quam repudiandae error aliquam illo voluptates ut? Possimus eveniet odio in dicta!</p>
-                    </div>
-                    <div class="col-md-3">
-                        <dvi class="container">
-                        <h2 ="text-center"=""><a href="#">Contact Me</a></h2>
-                        <hr>
-                        <ul class="list-inline">
-                            <li>Linkedin</li>
-                            <li>Stackoverflow</li>
-                            <li>GitHub</li>
-                        </ul>
-                    </dvi>
+                   
+                   
+                    
                     </div>
                   </div>
         
