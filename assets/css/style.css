@@ -5,3 +5,11 @@ body{
 .red{
     background-color: red;
 }
+
+.white{
+    background-color: white;
+}
+a,h1{
+    color: teal;
+}
+
