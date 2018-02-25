@@ -9,7 +9,18 @@ body{
 .white{
     background-color: white;
 }
-a,h1{
+a,h1,h2,h3{
     color: teal;
+    font-family: 'Roboto', sans-serif;
 }
 
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+ /* img{
+    border-color: teal;
+    border-width: 1px;
+    border-style: groove;
+
+} */
